@@ -14,7 +14,8 @@ Sistem Informasi Jurnal adalah RESTful API berbasis Django yang menyediakan endp
 ## 🛠️ Instalasi
 ### 1. Clone repositori
 ```bash
-git clone https://github.com/tarokeitaro/sij-backend.git cd sistem-informasi-jurnal
+git clone https://github.com/tarokeitaro/sij-backend.git
+cd sij-backend
 ```
 
 ### 2. Buat Virtual Environment
@@ -32,6 +33,7 @@ pip install -r requirements.txt
 ### 4. Konfigurasi Environment Variables
 Buat file `.env` di root direktori berdasarkan file contoh:
 ```bash
+cd sij
 cp .env.example .env
 ```
 Lalu sesuaikan nilai-nilai environment.
