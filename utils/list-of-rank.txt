@@ -1,0 +1,12 @@
+SINTA 1 SCOPUS
+SINTA 1
+SINTA 2 SCOPUS
+SINTA 2
+SINTA 3
+SINTA 4
+SINTA 5
+SINTA 6
+Quartile 1
+Quartile 2
+Quartile 3
+Quartile 4

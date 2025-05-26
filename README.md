@@ -38,15 +38,6 @@ Lalu sesuaikan nilai-nilai environment.
 
 ---
 
-## 📚 Dokumentasi API
-Akses dokumentasi API pada endpoint berikut:
-
-- **OpenAPI schema (raw)**: [`/api/schema/`](http://localhost:8000/api/schema/)
-- **Swagger UI**: [`/api/schema/swagger-ui/`](http://localhost:8000/api/schema/swagger-ui/)
-- **Redoc**: [`/api/schema/redoc/`](http://localhost:8000/api/schema/redoc/)
-
----
-
 ## ⚙️ Konfigurasi Penting di `settings.py`
 ```conf
 CORS_ALLOWED_ORIGINS = [
@@ -67,6 +58,15 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+
+---
+
+## 📚 Dokumentasi API
+Akses dokumentasi API pada endpoint berikut:
+
+- **OpenAPI schema (raw)**: [`/api/schema/`](http://localhost:8000/api/schema/)
+- **Swagger UI**: [`/api/schema/swagger-ui/`](http://localhost:8000/api/schema/swagger-ui/)
+- **Redoc**: [`/api/schema/redoc/`](http://localhost:8000/api/schema/redoc/)
 
 ---
 
