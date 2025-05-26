@@ -20,11 +20,17 @@ cd sij-backend
 
 ### 2. Buat Virtual Environment
 ```bash
-python -m venv venv source venv/bin/activate # Linux/macOS 
+python -m venv venv 
+```
+
+Masuk ke Virtual Environment
+```bash
+source venv/bin/activate # Linux/macOS
 ```
 ```bash
 venv\Scripts\activate # Windows
 ```
+
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
