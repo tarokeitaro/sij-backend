@@ -129,11 +129,11 @@ USE_I18N = True
 USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://0.0.0.0:8001",
+    "http://0.0.0.0:8000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://0.0.0.0:8001',
+    "http://0.0.0.0:8000",
 ]
 
 # Static files (CSS, JavaScript, Images)
