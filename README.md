@@ -1,29 +1,31 @@
-# 📰 Sistem Informasi Jurnal – REST API
-Sistem Informasi Jurnal adalah RESTful API berbasis Django yang menyediakan endpoint untuk mengelola data jurnal ilmiah secara efisien dan terstruktur. Proyek ini menggunakan Django REST Framework dan dokumentasi API telah disediakan melalui Swagger dan Redoc.
+# 📰 Journal Information System – REST API
+
+The Journal Information System is a Django-based RESTful API that provides endpoints for efficiently and structurally managing scientific journal data. This project uses the Django REST Framework, and API documentation is available through Swagger and Redoc.
 
 ---
 
-## 🚀 Fitur Utama
-- Autentikasi dan manajemen pengguna
-- CRUD untuk informasi jurnal
-- Relasi dengan institusi, negara, dan mata uang
-- Dokumentasi API (Swagger, Redoc, OpenAPI)
+## 🚀 Key Features
+- Authentication and user management  
+- CRUD operations for journal information  
+- Relations with institutions, countries, and currencies  
+- API documentation (Swagger, Redoc, OpenAPI)
 
 ---
 
-## 🛠️ Instalasi
-### 1. Clone repositori
+## 🛠️ Installation
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/tarokeitaro/sij-backend.git
 cd sij-backend
 ```
 
-### 2. Buat Virtual Environment
+### 2. Create a Virtual Environment
 ```bash
 python -m venv venv 
 ```
 
-Masuk ke Virtual Environment
+Activate the Virtual Environment:
 ```bash
 source venv/bin/activate # Linux/macOS
 ```
@@ -36,17 +38,17 @@ venv\Scripts\activate # Windows
 pip install -r requirements.txt
 ```
 
-### 4. Konfigurasi Environment Variables
-Buat file `.env` di root direktori berdasarkan file contoh:
+### 4. Configure Environment Variables  
+Create a `.env` file in the root directory based on the example file:
 ```bash
 cd sij
 cp .env.example .env
 ```
-Lalu sesuaikan nilai-nilai environment.
+Then adjust the environment values accordingly.
 
 ---
 
-## ⚙️ Konfigurasi Penting di `settings.py`
+## ⚙️ Important Settings in `settings.py`
 ```conf
 CORS_ALLOWED_ORIGINS = [
     "http://0.0.0.0:8000",
@@ -55,11 +57,11 @@ CSRF_TRUSTED_ORIGINS = [
     'http://0.0.0.0:8000',
 ]
 ```
-Pastikan pengaturan ini diaktifkan saat development agar frontend bisa mengakses API dengan aman.
+Make sure these settings are enabled during development so the frontend can securely access the API.
 
 ---
 
-## 🧪 Menjalankan Server
+## 🧪 Running the Server
 ```bash
 python manage.py migrate
 ```
@@ -69,8 +71,8 @@ python manage.py runserver
 
 ---
 
-## 📚 Dokumentasi API
-Akses dokumentasi API pada endpoint berikut:
+## 📚 API Documentation  
+Access the API documentation at the following endpoints:
 
 - **OpenAPI schema (raw)**: [`/api/schema/`](http://localhost:8000/api/schema/)
 - **Swagger UI**: [`/api/schema/swagger-ui/`](http://localhost:8000/api/schema/swagger-ui/)
@@ -78,5 +80,5 @@ Akses dokumentasi API pada endpoint berikut:
 
 ---
 
-## 📬 Kontak
-Jika ada pertanyaan atau kontribusi, silakan buat [issue](https://github.com/tarokeitaro/sij-backend/issues) atau hubungi maintainer proyek.
+## 📬 Contact  
+If you have any questions or would like to contribute, feel free to create an [issue](https://github.com/tarokeitaro/sij-backend/issues) or contact the project maintainer.
