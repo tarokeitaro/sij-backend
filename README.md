@@ -80,5 +80,13 @@ Access the API documentation at the following endpoints:
 
 ---
 
+## ✅ TODO
+- [ ] User Rating
+- [ ] User Comments
+- [ ] Publisher Account  
+- [ ] Publisher verification by admin
+
+---
+
 ## 📬 Contact  
 If you have any questions or would like to contribute, feel free to create an [issue](https://github.com/tarokeitaro/sij-backend/issues) or contact the project maintainer.
